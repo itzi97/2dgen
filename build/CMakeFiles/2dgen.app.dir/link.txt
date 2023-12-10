@@ -1,1 +1,0 @@
-/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/g++ CMakeFiles/2dgen.app.dir/main.cc.o CMakeFiles/2dgen.app.dir/game.cc.o -o 2dgen.app  /nix/store/hzfvp1pay5sqq96l20i4ahi7yrajjgfy-SDL2-2.28.4/lib/libSDL2.so 

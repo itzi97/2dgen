@@ -1,3 +1,0 @@
-/home/tarja/Workspace/2dgen/build/CMakeFiles/2dgen.app.dir
-/home/tarja/Workspace/2dgen/build/CMakeFiles/edit_cache.dir
-/home/tarja/Workspace/2dgen/build/CMakeFiles/rebuild_cache.dir
