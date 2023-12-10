@@ -18,13 +18,10 @@
         name = "2dgen";
 
         packages = with pkgs; [
-          # llvmPackages.clang
-
           # Development Tools
           cmake
           cmakeCurses
-          gcc
-          gnumake
+          llvmPackages.clang
           SDL2
           SDL2_image
           SDL2_ttf
