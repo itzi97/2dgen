@@ -57,16 +57,19 @@ void Game::Initialize(unsigned int screenWidth, unsigned int screenHeight) {
 
 void Game::Update() {
 
-  // Processing input
+  // Process input event
   SDL_Event event;
 
+  // If input event is processed
   while (SDL_PollEvent(&event) > 0) {
+    // Check event type
     switch(event.type) {
       case SDL_QUIT: {
         std::cout << "Quitting application" << std::endl;
         isRunning = false;
         break;
       }
+      // TODO: Actually read different keybinds
       case SDL_KEYDOWN: {
         std::cout << "Quitting application" << std::endl;
         isRunning = false;
